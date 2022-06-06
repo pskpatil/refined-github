@@ -3,3 +3,8 @@
 	margin: 8px 8px 0 0 !important;
 	display: block;
 }
+
+/* Fix spacing caused by the above code https://github.com/refined-github/refined-github/pull/5683 */
+[aria-label^="Fork your own copy of"].BtnGroup-item {
+	margin-right: 0 !important;
+}
