@@ -8,3 +8,8 @@
 [aria-label^="Fork your own copy of"].BtnGroup-item {
 	margin-right: 0 !important;
 }
+
+/* Set sensible default again because GitHub is not using the user preference #5708 */
+:root {
+	--tab-size: 4;
+}
