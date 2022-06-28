@@ -4,3 +4,7 @@
 blob-editor .file-header {
 	position: static !important; 
 }
+
+.js-gist-file-update-container .file-header {
+	top: 0 !important;
+}
