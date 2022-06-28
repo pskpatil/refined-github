@@ -1,0 +1,6 @@
+/* These hotfixes are not loaded on Safari due to a mis-release */
+
+/* https://github.com/refined-github/refined-github/pull/5735 */
+blob-editor .file-header {
+	position: static !important; 
+}
