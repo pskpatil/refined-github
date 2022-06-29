@@ -1,10 +1,15 @@
 /* These hotfixes are not loaded on Safari due to a mis-release */
 
 /* https://github.com/refined-github/refined-github/pull/5735 */
-blob-editor .file-header {
-	position: static !important; 
+.file-header:not(.sticky-file-header) {
+	top: 0;
+	z-index: 6;
 }
 
-.js-gist-file-update-container .file-header {
-	top: 0 !important;
+.file-header.has-open-dropdown:not(.sticky-file-header) {
+	z-index: 10;
+}
+
+.notification-shelf ~ .application-main .file-header:not(.sticky-file-header) {
+	top: 69px;
 }
